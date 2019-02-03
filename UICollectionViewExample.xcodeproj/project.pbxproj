@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC63FD282206AE9600D43C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63FD272206AE9600D43C32 /* AppDelegate.swift */; };
 		BC63FD2A2206AE9600D43C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63FD292206AE9600D43C32 /* ViewController.swift */; };
-		BC63FD2D2206AE9600D43C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63FD2B2206AE9600D43C32 /* Main.storyboard */; };
 		BC63FD2F2206AE9700D43C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC63FD2E2206AE9700D43C32 /* Assets.xcassets */; };
-		BC63FD322206AE9700D43C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC63FD302206AE9700D43C32 /* LaunchScreen.storyboard */; };
 		BC63FD3D2206AE9700D43C32 /* UICollectionViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC63FD3C2206AE9700D43C32 /* UICollectionViewExampleTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +27,7 @@
 		BC63FD242206AE9600D43C32 /* UICollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC63FD272206AE9600D43C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC63FD292206AE9600D43C32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC63FD2C2206AE9600D43C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC63FD2E2206AE9700D43C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC63FD312206AE9700D43C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC63FD332206AE9700D43C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC63FD382206AE9700D43C32 /* UICollectionViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC63FD3C2206AE9700D43C32 /* UICollectionViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExampleTests.swift; sourceTree = "<group>"; };
@@ -79,9 +75,7 @@
 			children = (
 				BC63FD272206AE9600D43C32 /* AppDelegate.swift */,
 				BC63FD292206AE9600D43C32 /* ViewController.swift */,
-				BC63FD2B2206AE9600D43C32 /* Main.storyboard */,
 				BC63FD2E2206AE9700D43C32 /* Assets.xcassets */,
-				BC63FD302206AE9700D43C32 /* LaunchScreen.storyboard */,
 				BC63FD332206AE9700D43C32 /* Info.plist */,
 			);
 			path = UICollectionViewExample;
@@ -177,9 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC63FD322206AE9700D43C32 /* LaunchScreen.storyboard in Resources */,
 				BC63FD2F2206AE9700D43C32 /* Assets.xcassets in Resources */,
-				BC63FD2D2206AE9600D43C32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,25 +211,6 @@
 			targetProxy = BC63FD392206AE9700D43C32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BC63FD2B2206AE9600D43C32 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC63FD2C2206AE9600D43C32 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC63FD302206AE9700D43C32 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC63FD312206AE9700D43C32 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BC63FD3F2206AE9700D43C32 /* Debug */ = {
